@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+
+    <style>
+
+        body{
+        
+            background-image: url('i1.jpg');
+        
+            background-repeat: no-repeat;
+        
+            background-attachment: fixed;
+        
+            background-size: cover ;
+        }
+        
+        
+        .main {
+        
+           background-color:  rgba(21, 21, 21, .2);
+        
+           border-radius: 20px;
+        
+            margin : 60px  500px 100px ;
+        
+            padding: 0px;
+        
+            width: 28%;
+        
+        
+        }
+        
+        h2{
+        
+            
+            background-color: rgb(213, 131, 24) ;
+           
+            color: rgb(33, 26, 26);
+        
+            border-radius: 20px 20px 0 0;
+        
+            padding-top: 0;
+        
+           text-align: center;
+        
+        }
+        
+        input
+        {
+        
+            width: 92% ;
+        
+            border-radius: 5px;
+        
+            padding: 5px ;
+        
+            margin: 7px ;
+        
+        
+        }
+        label
+        {
+            margin: 10px;
+        
+            color: white;
+        
+        }
+      
+        li {
+
+            display: inline-block;
+           
+           
+
+        }
+        li:hover
+        {
+            background-color: rgb(235, 201, 99);
+            
+        }
+
+        .nav
+        {
+         
+            background-color: rgb(213, 131, 24) ;
+            list-style-type: none;
+            overflow: hidden;
+            margin: 0px;
+            padding: 0px;
+
+
+        }
+        
+        li a
+        {
+
+            display: inline-block;
+            margin: 0;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+           
+
+        }
+        li:hover
+        {
+            background-color: rgb(235, 201, 99);
+            
+        }
+        img
+        {
+
+            width: 20px;
+            height: 10px;
+            border-radius: 50%;
+
+        }
+
+        div{
+
+            display: block;
+
+background-color: rgb(227, 209, 171);
+
+height: 100%;
+
+        }
+        .foot 
+        {
+
+            display: inline-block;
+            width: 20%;
+            padding-left: 10%;
+
+
+
+
+        }
+        .foot2 
+        {
+            display: inline-block;
+            width: 20%;
+            padding-left: 5%;
+
+            text-align: center;
+
+            
+        } 
+        .foot3
+        {
+
+  
+            display: inline-block;
+            width: 20%;
+            padding-left: 5%;
+
+
+
+        text-align: center;
+
+            
+        } 
+        
+        </style>
+
+
+
+</head>
+<body>
+
+
+
+
+            <ul class="nav">
+                <li ><a class="current" href="cur"><img src="i1.jpg"  alt="img"></a></li>
+                <li ><a class="active" href="home">Home</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="about">About</a></li>
+
+            </ul>
+
+
+
+
+
+    <div class="main">
+
+        <h2>  Student Registration Form </h2>
+    
+        <form class="f" action="" >
+                <label for="fname"> First Name * : </label>
+                <br>
+                <input type="text" id="fname" name="fname" placeholder="Your Name">
+                
+                <br>
+    
+                <label for="lname"> Last Name * : </label>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Your Last Name">
+    
+                <br>
+      
+                <label for="email"> E-mail * : </label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+    
+                <br>
+    
+                <label for="pwd"> Password * : </label>
+                <br>
+                <input style="width: 41% ; margin: 3px 10px;" type="password" id="pwd" name="pwd" placeholder="pasword">
+    
+                <input style="width: 41% ; margin: 3px 10px;" type="password" id="pwd" name="confirm_pwd" placeholder="confirm pasword">
+    
+                <br>
+              
+            
+    
+                <label for="pno"> PHONE * : </label>
+                <br>
+                <input type="number" id="pno" name="pno" placeholder="1234">   
+    
+                <br>
+    
+                <label for="gender"> Gender : </label>
+                                    <input style="padding: 0 ; width : 20px;" type="radio" id="male" name="gender">
+                                    <label for="male"> Male </label>
+                                    <input style="padding: 0 ; width : 20px;" type="radio" id="female" name="gender">
+                                    <label for="female"> Female </label>
+                                    <input style="padding: 0 ; width : 20px;" type="radio" id="others" name="gender">
+                                    <label for="others"> Others </label> 
+                
+                
+                <br>
+           
+              <input style="background-color:  rgba(23, 17, 17, 0.5); color:  white; margin-bottom: 20px ; width : 96% ;" type="submit" value="submit">
+    
+    
+    
+        </form>
+
+</div>
+
+
+<div style="position: relative;">
+
+
+            <div class="foot">
+
+                <h4>CONTACT</h4>
+                <p>22222222</p>
+
+
+            </div>
+            <div class="foot2">
+
+                <h1 style="padding: 0; margin: 0%;" >SR</h1>
+                
+                <ul >
+                    <li > <a href="fb"><img style="height: 30px; width: 30px;" src="fb.PNG"  alt="img"></a></li>
+                    <li ><a href="insta"><img style="height: 30px; width: 30px; "src="inst.PNG"  alt="img"></a></a></li>
+                    <li><a href="twt"><img style="height: 30px ;width: 30px;" src="twt.PNG"  alt="img"></a></a></li>
+
+    
+                </ul>
+
+
+            </div>
+
+            <div style="position: absolute;" class="foot3">
+
+
+                <label for="email" style=" color: black; ;"> STAY IN TOUCH  </label>
+                <br>
+                <input style="  width : 20% ; text-align: center;" type="email" id="email" name="email" placeholder="EMAIL">
+
+
+
+            </div>
+
+</div>
+
+    
+    
+</body>
+</html>
