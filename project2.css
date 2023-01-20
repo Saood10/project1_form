@@ -1,0 +1,158 @@
+
+        body{
+        
+            background-image: url('i1.jpg');
+        
+            background-repeat: no-repeat;
+        
+            background-attachment: fixed;
+        
+            background-size: cover ;
+        }
+        
+        
+        .main {
+        
+           background-color:  rgba(21, 21, 21, .2);
+        
+           border-radius: 20px;
+        
+            margin : 60px  500px 100px ;
+        
+            padding: 0px;
+        
+            width: 28%;
+        
+        
+        }
+        
+        h2{
+        
+            
+            background-color:  rgb(40,123,113);
+           
+            color: rgb(33, 26, 26);
+        
+            border-radius: 20px 20px 0 0;
+        
+            padding-top: 0;
+        
+           text-align: center;
+        
+        }
+        
+        input
+        {
+        
+            width: 92% ;
+        
+            border-radius: 5px;
+        
+            padding: 5px ;
+        
+            margin: 7px ;
+        
+        
+        }
+        label
+        {
+            margin: 10px;
+        
+            color: white;
+        
+        }
+      
+        li {
+
+            display: inline-block;
+            margin: 0;
+            padding: 2px;
+            text-decoration: none;
+            color: black;
+           
+           
+
+        }
+        li:hover
+        {
+            background-color:  rgb(103, 190, 180);
+            
+        }
+
+        .nav
+        {
+         	display:flex;
+            background-color:  rgb(40,123,113) ;
+            justify-content:space-between;
+            font-size: 20px;
+            
+
+
+
+        }
+        a{
+
+            text-decoration: none;
+            color: black;
+            padding: 4px 4px;
+        }
+
+
+        img 
+        {
+
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            padding: 2px 2px;
+           
+
+        }
+
+       
+        .footer
+        {
+        
+        display:flex;
+        background-color:  rgba(44, 176, 160, 0.379);
+        flex-flow:row wrap;
+        justify-content:space-around;
+        align-items: baseline;
+        
+        }
+        .lft 
+        {
+
+    
+   text-align: center;
+               width:30%;
+               
+          
+
+
+
+        }
+        .ctr 
+        {
+
+
+            text-align: center;
+           
+            width:30%;
+         
+
+            
+        } 
+        .ryt
+        {
+
+  
+
+
+            width:30%;
+            
+       		 text-align: center;
+
+
+            
+        } 

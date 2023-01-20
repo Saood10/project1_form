@@ -6,178 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registration Form </title>
 
-    <style>
-
-        body{
-        
-            background-image: url('i1.jpg');
-        
-            background-repeat: no-repeat;
-        
-            background-attachment: fixed;
-        
-            background-size: cover ;
-        }
-        
-        
-        .main {
-        
-           background-color:  rgba(21, 21, 21, .2);
-        
-           border-radius: 20px;
-        
-            margin : 60px  500px 100px ;
-        
-            padding: 0px;
-        
-            width: 28%;
-        
-        
-        }
-        
-        h2{
-        
-            
-            background-color: rgb(213, 131, 24) ;
-           
-            color: rgb(33, 26, 26);
-        
-            border-radius: 20px 20px 0 0;
-        
-            padding-top: 0;
-        
-           text-align: center;
-        
-        }
-        
-        input
-        {
-        
-            width: 92% ;
-        
-            border-radius: 5px;
-        
-            padding: 5px ;
-        
-            margin: 7px ;
-        
-        
-        }
-        label
-        {
-            margin: 10px;
-        
-            color: white;
-        
-        }
-      
-        li {
-
-            display: inline-block;
-           
-           
-
-        }
-        li:hover
-        {
-            background-color: rgb(235, 201, 99);
-            
-        }
-
-        .nav
-        {
-         
-            background-color: rgb(213, 131, 24) ;
-            list-style-type: none;
-            overflow: hidden;
-            margin: 0px;
-            padding: 0px;
-
-
-        }
-        
-        li a
-        {
-
-            display: inline-block;
-            margin: 0;
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-           
-
-        }
-        li:hover
-        {
-            background-color: rgb(235, 201, 99);
-            
-        }
-        img
-        {
-
-            width: 20px;
-            height: 10px;
-            border-radius: 50%;
-
-        }
-
-        div{
-
-            display: block;
-
-background-color: rgb(227, 209, 171);
-
-height: 100%;
-
-        }
-        .foot 
-        {
-
-            display: inline-block;
-            width: 20%;
-            padding-left: 10%;
-
-
-
-
-        }
-        .foot2 
-        {
-            display: inline-block;
-            width: 20%;
-            padding-left: 5%;
-
-            text-align: center;
-
-            
-        } 
-        .foot3
-        {
-
-  
-            display: inline-block;
-            width: 20%;
-            padding-left: 5%;
-
-
-
-        text-align: center;
-
-            
-        } 
-        
-        </style>
-
+<link rel="stylesheet" href="project2.css">
 
 
 </head>
 <body>
 
+<div class="nav">
 
-
-
-            <ul class="nav">
-                <li ><a class="current" href="cur"><img src="i1.jpg"  alt="img"></a></li>
+        <a href="cur"><img src="i1.jpg"  alt="img"> </a>
+            <ul >
+             
                 <li ><a class="active" href="home">Home</a></li>
                 <li><a href="news">News</a></li>
                 <li><a href="contact">Contact</a></li>
@@ -185,7 +24,7 @@ height: 100%;
 
             </ul>
 
-
+</div>
 
 
 
@@ -248,41 +87,42 @@ height: 100%;
 </div>
 
 
-<div style="position: relative;">
+<div class="footer">
 
 
-            <div class="foot">
+            <div class="lft">
 
                 <h4>CONTACT</h4>
                 <p>22222222</p>
 
 
             </div>
-            <div class="foot2">
+            
+            
+  <div class="ctr">
 
-                <h1 style="padding: 0; margin: 0%;" >SR</h1>
+                <h1 >SR</h1>
                 
-                <ul >
-                    <li > <a href="fb"><img style="height: 30px; width: 30px;" src="fb.PNG"  alt="img"></a></li>
-                    <li ><a href="insta"><img style="height: 30px; width: 30px; "src="inst.PNG"  alt="img"></a></a></li>
-                    <li><a href="twt"><img style="height: 30px ;width: 30px;" src="twt.PNG"  alt="img"></a></a></li>
+    <ul >
+ 
+ <li > <a href="fb"><img style="height: 30px; width: 30px;" src="fb.PNG"  alt="img"></a></li>
+ <li ><a href="insta"><img style="height: 30px; width: 30px; "src="inst.PNG"  alt="img"></a></a></li>
+ <li><a href="twt"><img style="height: 30px ;width: 30px;" src="twt.PNG"  alt="img"></a></a></li>
 
     
-                </ul>
+    </ul>
 
 
-            </div>
+ </div>
 
-            <div style="position: absolute;" class="foot3">
+<div class="ryt">
 
 
-                <label for="email" style=" color: black; ;"> STAY IN TOUCH  </label>
+      <label for="email" style=" color: black; ;"> STAY IN TOUCH  </label>
                 <br>
-                <input style="  width : 20% ; text-align: center;" type="email" id="email" name="email" placeholder="EMAIL">
+       <input style="width:auto;" type="email" id="email" name="email" placeholder="EMAIL">
 
-
-
-            </div>
+ </div>
 
 </div>
 
